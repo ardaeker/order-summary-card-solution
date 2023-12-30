@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #e0e8ff;
+}
+
+@layer base {
+  html {
+    @apply min-h-dvh antialiased;
+  }
+
+  body {
+    @apply bg-mobile-pattern md:bg-desktop-pattern relative h-full bg-[var(--background-color)] bg-contain bg-no-repeat;
+  }
+}
