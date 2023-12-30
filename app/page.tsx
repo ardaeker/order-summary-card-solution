@@ -55,7 +55,7 @@ export default function Home() {
           </a>
           . Coded by{" "}
           <a
-            href="#"
+            href="https://www.frontendmentor.io/profile/ardaeker"
             className="text-[#1F2E55] transition-colors hover:text-[#766CF1]"
           >
             Arda Eker
